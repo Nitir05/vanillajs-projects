@@ -92,7 +92,7 @@ const keyboard = {
 
     //Create HTML for an Icon
     const createIconHTML = (iconName) => {
-      return `<i class="material-icons>${iconName}</i>`;
+      return `<i class="material-icons">${iconName}</i>`;
     };
 
     keyLayout.forEach((key) => {
@@ -197,7 +197,7 @@ const keyboard = {
     this.properties.value = "";
     this.eventHandlers.oninput = oninput;
     this.eventHandlers.onclose = onclose;
-    this.elements.main.classList.add("keyboard__hidden");
+    this.elements.main.classList.add("keyboard--hidden");
   },
 };
 
